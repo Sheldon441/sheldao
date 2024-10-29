@@ -16,4 +16,4 @@ app.use('/species', speciesRouter)
 app.use('/expedition', expeditionRouter)
 
 
-app.listen(4000, () => console.log('Server running on port 4000'));
+app.listen(process.env.PORT, () => console.log('Server running on port 4000'));
